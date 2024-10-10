@@ -37,17 +37,17 @@ function Footer() {
 
   return (
     <div
-      className="h-[800px] md:h-[700px] w-full flex flex-col justify-evenly gap-4 md:gap-8"
+      className="h-[800px] md:h-[550px] w-full flex flex-col justify-evenly gap-4 md:gap-8"
       style={{ 
         backgroundImage: 'url("/images/footerBg.png")', 
         backgroundSize: 'cover', 
         backgroundPosition: 'center' 
       }}
     >
-      <div className="h-[650px] md:h-[550px] w-full flex flex-col md:flex-row justify-evenly gap-4 md:gap-8">
+      <div className="h-[650px] md:h-[500px] w-full flex flex-col md:flex-row justify-evenly gap-4 md:gap-8">
         
         {/* Logo and subscribe section */}
-        <div className="w-full md:w-[400px] h-full flex flex-col justify-center items-center text-center gap-6 p-4 md:p-0">
+        <div className="w-full md:w-[300px] h-full flex flex-col justify-center items-center text-center gap-6 p-4 md:p-0">
           <img src="/images/logo0.png" alt="" className="w-[150px] md:w-[200px]" />
           <p className="w-full md:w-[300px]">There are many variations of passages of lorem ipsum available, but the majority have suffered alteration in some form.</p>
           <input type="text" placeholder="Email*" className="h-[40px] w-full md:w-[300px] rounded" />
@@ -74,7 +74,7 @@ function Footer() {
       </div>
 
       {/* Footer bottom text */}
-      <div className="w-full flex justify-center p-4 md:p-10">
+      <div className="w-full h flex justify-center ">
         <p>All Rights Reserved</p>
       </div>
     </div>
